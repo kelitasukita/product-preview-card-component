@@ -1,13 +1,19 @@
-:root {
-  --dark-cyan: #3c8067;
-  --cream: #f2ebe3;
-  --very-dark-blue: rgb(28, 35, 43);
-  --dark-grayish-blue: #6c7289;
-  --white: #ffffff;
+
+  $dark-cyan: #3c8067;
+  $cream: #f2ebe3;
+  $very-dark-cyan: #1c232b;
+  $dark-grayish-blue: #6c7289;
+  $white: #ffffff;
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 
 body {
   font-size: 14px;
-  background: var(--cream);
+  background: $cream;
 }
 
