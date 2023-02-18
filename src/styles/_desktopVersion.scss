@@ -14,9 +14,11 @@
   
   img {
     width: 350px;
+    height: auto;
     max-width: 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+
   }
 }
 
@@ -70,19 +72,30 @@
     border-radius: 9px;
     margin-top: 25px;
     max-width: 100%;
-
     padding: 15px 70px;
-
+    cursor: pointer;
+    &:hover {
+      background: $very-dark-cyan;
+      transition: 0.3s;
+    }
+    
     display: flex;
     align-items: center;
     justify-content: center;
     
     button {
+      cursor: pointer;
       font-family: Montserrat, sans-serif;
+      font-weight: 700;
       color: $white;
       margin-left: 5px;
       background: none;
       border: none;
+
+      &:hover {
+        background: $very-dark-cyan;
+        transition: 0.3s;
+      }
       
       
     }
