@@ -7,12 +7,13 @@
   align-items: center;  
 }
 
-.desktop-image {
+.parfum-image {
   line-height:0;
-  img {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
+  background: url('../assets/images/image-product-desktop.jpg') no-repeat;
+  width: 350px;
+  height: 525px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .text {
@@ -92,16 +93,33 @@
 
       svg {
         margin-right: 10px;
-      }
-      
-      
-    }
-    
+      }         
+    }    
   }
 
 }
 
+@media screen and (max-width: 703px) {
+  html {
+    padding: 20px 10px;
+  }
+  .container {
+    margin-top: 0;
+    flex-direction: column;
+    
+  }
 
+  .parfum-image {
+    background: url('../assets/images/image-product-mobile.jpg') no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 262.5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+  }
+
+}
 
 
 
