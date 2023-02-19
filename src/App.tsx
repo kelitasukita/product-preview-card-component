@@ -5,9 +5,7 @@ import desktopParfum from './assets/images/image-product-desktop.jpg';
 function App() {
   return (
     <div className='container'>
-      <div className='desktop-image'>
-        <img src={desktopParfum} alt="test" />
-      </div>
+      <div className='parfum-image'></div>
       <div className='text'>
         <h6>PERFUME</h6>
         <h1>Gabrielle Essence Eau De Parfum</h1>
