@@ -5,28 +5,24 @@
   display: flex;
   justify-content: center;
   align-items: center;  
-
-
-  
 }
 
 .desktop-image {
+  line-height:0;
   img {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-
   }
 }
 
 .text {
   width: 270px;
-  height: 445px;
-  padding: 40px;
+  height: 449px;
+  padding: 38px;
   background: $white;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 
-  
   h6, p, span {
     font-family: Montserrat, sans-serif;
     font-weight: 500;
@@ -35,17 +31,24 @@
   }
 
   h6 {
-    margin-top: 10px;
     font-size: 15px;
     letter-spacing: 4px;
+    margin: 0;
   }
 
   h1 {
     font-family: Fraunces, sans-serif;
     color: $very-dark-cyan;
-    font-size: 40px;
+    font-size: 38px;
+    line-height: 1em;
   }
-  
+
+  p {
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+  }
+
   strong {
     font-family: Fraunces, sans-serif;
     font-size: 40px;
@@ -53,48 +56,42 @@
     color: $dark-cyan;
   }
 
+  span {
+    text-decoration: line-through;
+  }
+
   .price {
     max-width: 100%;
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
-  
-    span {
-      text-decoration: line-through;
-    }
+    margin-bottom: 30px;
 
   }
 
   .btn-add-cart {
-    max-width: 100%;
-    background: $dark-cyan;
-    border-radius: 9px; 
-    padding: 15px 70px;
-    cursor: pointer;
 
-    &:hover {
-      background: $very-dark-cyan;
-      transition: 0.3s;
-    }
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
     button {
-      max-width: 100%;
-      cursor: pointer;
       font-family: Montserrat, sans-serif;
       font-weight: 700;
+      font-size: 15px;
       color: $white;
-      margin-left: 5px;
-      background: none;
+      background: $dark-cyan;
       border: none;
-      white-space: nowrap;
+      border-radius: 9px;
+      width: 100%;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
 
       &:hover {
         background: $very-dark-cyan;
         transition: 0.3s;
+      }
+
+      svg {
+        margin-right: 10px;
       }
       
       
