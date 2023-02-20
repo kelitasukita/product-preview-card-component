@@ -1,4 +1,6 @@
 
+
+
   $dark-cyan: #3c8067;
   $cream: #f2ebe3;
   $very-dark-cyan: #1c232b;
@@ -14,5 +16,11 @@ html {
 body {
   font-size: 14px;
   background: $cream;
+
+  @media  screen and (max-width: 700px) {
+    width: 375px;
+    height: 667px;
+    
+  }
 }
 
