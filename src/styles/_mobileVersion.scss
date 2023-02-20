@@ -1,0 +1,63 @@
+@import 'global';
+
+@media  screen and (max-width: 700px) {
+  
+  .container {
+    margin: 0;
+    width: 375px;
+    height: 667px;
+    
+    display: flex;
+    flex-direction: column;
+    
+  
+    .parfum-image {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 10px;
+      
+      background: url('../assets/images/image-product-mobile.jpg') no-repeat;
+      background-size: contain;
+      width: 100%;
+      height: 295px;
+    }
+  
+    .text {
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 10px;
+      width: 100%;
+  
+      h6 {
+        font-size: 12px;
+      }
+  
+      h1 {
+        font-size: 32px;
+      }
+  
+      p {
+        font-size: 14px;
+        letter-spacing: 0.6px;
+        line-height: 1.4rem;
+      }
+  
+      strong {
+        font-size: 34px;
+      }
+  
+    }
+  
+    .btn-add-cart {
+      button {
+        font-size: 14px;
+        height: 50px;
+      }
+    }
+  }
+}
+
