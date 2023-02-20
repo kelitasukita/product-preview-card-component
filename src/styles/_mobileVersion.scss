@@ -1,36 +1,38 @@
 @import 'global';
 
-@media  screen and (max-width: 700px) {
+@media  screen and (max-width: 704px) {
   
   .container {
     margin: 0;
-    width: 375px;
-    height: 667px;
+    width: 345px;
+    height: 620px;
+    padding: 25px 15px;
     
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
   
     .parfum-image {
-      margin: 0;
-      padding: 0;
+    
       box-sizing: border-box;
       border-bottom-left-radius: 0;
       border-top-right-radius: 10px;
       
       background: url('../assets/images/image-product-mobile.jpg') no-repeat;
-      background-size: contain;
-      width: 100%;
-      height: 295px;
+      background-size: 345px;
+      
+      width: 345px;
     }
   
     .text {
-      margin: 0;
+      padding-bottom: 20px;
+      padding-left: 15px;
+      padding-right: 15px;
       padding: 20px;
       box-sizing: border-box;
       border-top-right-radius: 0;
       border-bottom-left-radius: 10px;
       width: 100%;
+      height: 100%;
   
       h6 {
         font-size: 12px;
@@ -45,15 +47,21 @@
         letter-spacing: 0.6px;
         line-height: 1.4rem;
       }
-  
-      strong {
-        font-size: 34px;
+
+      .price {
+        margin-bottom: 15px;
+
+        strong {
+          font-size: 34px;
+        }
       }
+  
   
     }
   
     .btn-add-cart {
       button {
+
         font-size: 14px;
         height: 50px;
       }
