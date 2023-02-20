@@ -1,9 +1,6 @@
 # Product preview card component   
 
 
-# Sobre o projeto
-
-
 This is a static screen model that I developed from Frontend Mentor. The project purpose was just training my develop skills about:
 * Creating a new project using Vite; 
 * Learn CSS and SASS fundamentals .
