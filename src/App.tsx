@@ -1,6 +1,5 @@
-import './styles/global.scss';
 import './styles/_desktopVersion.scss';
-import desktopParfum from './assets/images/image-product-desktop.jpg';
+import './styles/_mobileVersion.scss';
 
 function App() {
   return (
