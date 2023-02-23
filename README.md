@@ -1,4 +1,4 @@
-<h1 align="center"> Product preview card component </h1>  
+# Product preview card component
 
 
 This is a static screen model that I developed from Frontend Mentor. The project purpose was just training my develop skills about:
@@ -19,19 +19,18 @@ Here are the desktop and mobile layout screens respectively:
 
 
 
-## How to execute this project? 
+## Setup
 
-To build this project you will need: 
-* Node Version 16.9, at least;
+* Make sure that your installed Node version is compatible with the one described in package.json.
 
 
-1. Clone the repo:
-<pre> git clone https://github.com/kelitasukita/product-preview-card-component.git </pre>
+1. Clone the repo;
 
-2. Go product-preview-card-component folder:
-<pre> cd product-preview-card-component </pre>
 
-3. Install dependences
+2. Go to the product-preview-card-component folder:
+
+
+3. Install dependencies
 <pre> npm install </pre>
 
 4. Run project with: 
